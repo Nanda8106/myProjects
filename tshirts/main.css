@@ -1,0 +1,279 @@
+
+
+   
+
+*
+{
+    margin: 0;
+    padding: 0;
+     
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height:50px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    
+    color: #273746  !important;
+    border: 1px solid #CACFD2;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+
+.nav-link
+{
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.avatar
+{
+    height: 400px;
+    width: 1920px;
+    
+}
+
+.carousel-caption h5
+{
+    font-family: Candara;
+    font-weight: 600;
+    font-size: 30px;
+    color: #CA6F1E;
+    letter-spacing: 1.5px;
+    
+   
+   
+    
+    
+  
+}
+
+.carousel-caption p
+{
+    
+     font-family: Candara;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1.2px;
+   
+   
+   
+}
+
+.carousel-caption
+{
+   margin-left: 200px;
+    margin-bottom: 120px
+    
+}
+
+<*--------------Imagecard--------->
+
+
+
+.container1 
+{
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-top
+{
+    width: 280px;
+    height: 250px;
+}
+
+.card
+{
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px  #CCD1D1 ;
+    
+   
+  
+    
+}
+
+.card:hover
+{
+    transform: scale(1.1);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.card-title
+{
+    font-family: Candara;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.price
+{
+    font-family: Garamond;
+    color: #E59866;
+    font-size: 16px;
+}
+
+.card-text
+{
+    font-size: 13px;
+    font-weight: 100;
+}
+.details
+{
+    text-decoration: none;
+}
+
+
+#services
+{
+    
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+#services
+{
+    margin-top: 40px;
+    
+}
+
+.icon
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+    padding: 0 30px;
+}
+#services h3
+{
+    padding: 0 50px;
+}
+
+#services .col-md-3:hover
+{
+    background: #EB984E;
+    cursor: pointer;
+    color: #212F3D;
+    transition: 0.7s;
+}
+
+.line
+{
+    margin: 60px 480px ;
+    width: 600px;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+.contact-us h3
+{
+    margin: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-us h3::after
+{
+    content: '';
+    background: blue;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
