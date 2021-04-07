@@ -7,7 +7,7 @@ body
 {
     width: 1536px;
     height: 820px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/ninnukori-img.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/ninnukori-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
