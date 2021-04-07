@@ -1,0 +1,72 @@
+<!DOCUMENT html>
+<html>
+<head>
+    <title>Students Grade selecting</title>
+    <link rel="stylesheet" type="text/css" href="grade.css">
+</head>
+<body>
+    <div class="container">
+        <div class="discription">
+            <h2>STUDENT <br>GRADE<br> CALCY</h2>
+        </div>
+        <div class="grade-form">
+            <div class="grade-form-group">
+                <input type="text" class="grade-form-control" placeholder="LINUX PROGRAMMING" id="lp">
+            </div>
+            <div class="grade-form-group">
+                <input type="text" class="grade-form-control" placeholder="OPERATING SYSTEM" id="os">
+            </div>
+            <div class="grade-form-group">
+                <input type="text" class="grade-form-control" placeholder="THEORY OF COMPUTATION" id="toc">
+            </div>
+            <div class="grade-form-group">
+                <input type="text" class="grade-form-control" placeholder="ALGARITHMS" id="alg">
+            </div>
+            <div class="grade-form-group">
+                <input type="text" class="grade-form-control" placeholder="HVPE" id="hvpe">
+            </div>
+            <div>
+                <input type="button" name="" class="grade-form-button" value="showPercentage" onclick="calcy()">
+            </div>
+        </div>
+        <div class="grade-form-showdata">
+            <p id="showData"></p>
+        </div>
+    </div>
+    <script>
+        function calcy(){
+            let lp = document.getElementById('lp').value;
+            let os = document.getElementById('os').value;
+            let toc = document.getElementById('toc').value;
+            let alg = document.getElementById('alg').value;
+            let grade = "";
+            
+            let hvpe = document.getElementById('hvpe').value;
+            
+            let total = parseFloat(lp) +parseFloat(os) +parseFloat(toc) +parseFloat(alg) +parseFloat(hvpe) ;
+            
+            alert(total);
+            
+            let percentage = (total/500)*100;
+            if(percentage<=100 && percentage>=80){
+                grade = 'A';
+            }
+            else if(percentage<80 && percentage>=75){
+                grade = 'B';
+            }
+            else if(percentage<75 && percentage>=60){
+                grade = 'C';
+            }else if(percentage<60 && percentage>=40){
+                grade = 'D';
+            }else{
+                grade = 'F';
+            }
+            if(percentage>=39.5){
+            document.getElementById("showData").innerHTML = `Out of 500 your total is ${total} and percentage is ${percentage}% <br> Your Grade is ${grade}. You are Pass`;
+            }else{
+                document.getElementById("showData").innerHTML = `Out of 500 your total is ${total} and percentage is ${percentage}% <br> Your Grade is ${grade}. You are Fail`;
+            }
+        }
+    </script>
+</body>
+</html>
