@@ -7,3 +7,4 @@
 6. Grade calculator.
 7. Password Strength checker.
 8. Jntua cirriculum page.
+9. Whatsapp desktop home page.
