@@ -1,0 +1,316 @@
+.container
+{
+  width: 1510px;
+    height: 1795px;;
+    position:absolute;
+    background: #42455a;
+    
+    
+}
+.logo img
+{
+   width: 80px;
+    height: 40px;
+    
+    margin-top: -7px;
+    margin-right: 48px;    
+}
+
+
+.nav-bar ul
+{
+       
+       display: inline-flex;
+       margin: 50px;
+   
+}
+.nav-bar ul li
+{
+    list-style: none;
+    
+    
+}
+.nav-bar ul li a
+{
+    text-decoration: none;
+     color:#D0D3D4;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.nav-bar ul li a:hover
+{
+    color: white;
+    
+    
+    
+    
+    
+}
+/*--------------Movie-list----------------*/
+.notice{
+
+    color: #fa0b0b;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 0 0 20px 220px;
+}
+.movie-name
+{
+    border: 2px solid black;
+    width: 800px;
+    height: 200px;
+    margin: 10px  500px 10px 200px;
+    border-radius: 10px;
+    
+}
+.movie-name:hover
+{
+    transform: scale(1.009);
+    transition: 0.3s;
+}
+.avatar
+{
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+    float: left;
+}
+.avatar img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+}
+.description
+{
+    width: 75%;
+    height: 100%;   
+    float: left;
+}
+.description h3
+{
+    padding: 0 0 0 20px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.description p
+{
+    padding: 0 10px 0 20px;
+    color: #979A9A;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+}
+.description a
+{
+    text-decoration: none;
+    color: #D35400;
+    padding: 0 10px 0 20px;
+    
+}
+.description a:hover
+{
+    color: #DC7633;
+}
+.play-btn
+{
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+
+
+
+
+.play-btn-inner .fa
+{
+    padding: 18px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+}
+
+small
+{
+    margin: auto -25px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    letter-spacing: 2px;
+    
+}
+.see-more
+{
+    margin: 20px 200px;
+}
+.see-more a
+{
+    text-decoration: none;
+    color: #D35400 ;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.see-more a:hover
+{
+    color: #DC7633;
+}
+
+/*---------------Services---------------*/
+.services
+{
+    width: 1510px;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/service.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 0 30px 0;
+    border-radius: 2px;
+}
+.about-us
+{
+    
+    float: left;
+    margin: 30px 0 0 0;
+    
+}
+.about-us a
+{
+    text-decoration: none;
+    display: block;
+    color: #B3B6B7;
+    opacity: 1;
+    padding: 5px 0 0 50px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.about-us a:hover
+{
+    cursor: pointer;
+    color: #5DADE2;
+}
+.team-members
+{
+   
+    float: left;
+    margin: 10px 0 0 270px;
+}
+.team-members a
+{
+    text-decoration: none;
+    display: block;
+    color: #B3B6B7;
+    
+    padding: 5px 0 0 50px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.team-members h3
+{
+    color: #F4F6F7;
+    padding: 0 0 0 50px;   
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.team-members a:hover
+{
+     cursor: pointer;
+    color: #5DADE2;
+}
+
+.follow-us
+{
+   
+    float: left;
+    
+    height: 200px;
+    width: 400px;
+    margin: 30px 0 0 270px;
+}
+.follow-us h3
+{
+    color: #F4F6F7;
+     padding: 0 0 0 50px;   
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.follow-us .fa
+{
+    color: #B3B6B7;
+    padding: 10px 0 0 50px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.follow-us .fa:hover
+{
+     cursor: pointer;
+    color: #5DADE2;
+}
+
+.copyright
+{
+    float: right;
+    
+    margin: 20px 0 0 0;
+    
+    
+}
+.copyright p
+{
+    color: #7B7D7D;
+    padding: 0 30px 0 0;
+}
+.policy
+{
+    float: right;
+    margin: 35px 930px 0 0;
+}
+.policy a
+{
+    text-decoration: none;
+    color: #F4F6F7;
+    padding-left: 10px;
+    
+    
+}
+.policy a:hover{
+    color: #5DADE2;
+    cursor: pointer;
+}
+.something
+{
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
