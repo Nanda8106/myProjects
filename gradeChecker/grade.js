@@ -1,4 +1,4 @@
- function calcy(){
+function calcy(){
             let lp = document.getElementById('lp').value;
             let os = document.getElementById('os').value;
             let toc = document.getElementById('toc').value;
