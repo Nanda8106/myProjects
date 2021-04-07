@@ -1,0 +1,94 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 1520px;
+    height: 705px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/library-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar ul
+{
+    list-style: none;
+    display: inline-flex;
+    margin: 50px 0 50px 100px;
+}
+.nav-bar ul li a
+{
+    margin-right: 70px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: verdana;
+}
+.nav-bar .important
+{
+    color: #DC7633 !important;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #DC7633;
+    transition: 0.2s;
+}
+.nav-bar ul li a:hover
+{
+    color: #21618C;
+}
+
+.details-card
+{
+    width: 60%;
+    height: 40%;
+    margin: 100px auto;
+    border: 1px solid #DC7633;
+    background: rgba(230, 126, 34,0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 40px black;
+    
+}
+.details-card form
+{
+    text-align: center;
+    margin: 100px auto; 
+}
+
+.details-card  select
+{
+    padding: 10px 5px 10px 10px;
+    border-radius: 10px;
+    background: #111;
+    opacity: 05;
+    color: white;
+    text-align: center;
+    font-size:14px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+.details-card option
+{
+    border-radius: 50px;
+    color: white;
+}
+.details-card input
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: #F7F9F9;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: 1px solid #F7F9F9;
+    box-shadow: 0 0 10px;
+}
+.details-card input:hover
+{
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: #5DADE2 ;
+    background: #B3B6B7;
+}
