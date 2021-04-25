@@ -1,0 +1,174 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    background: #e5e5e5
+}
+
+.container {
+    width: 100%;
+}
+
+
+/*Navbar
+--------------------------*/
+.nav-bar {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background: white;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.nav-items {
+    padding: 0 2%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.nav-items a:hover{
+    color: black
+}
+.nav-items a i{
+    padding:  0 3px 0 0;
+}
+
+/*Section
+-------------------------*/
+.section{
+    width:80%;
+    margin: 100px auto 30px auto;
+    background: #333533;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin: 0 10px
+}
+.card{
+    width:16rem; 
+    margin: 20px;
+    border: 1px solid white;
+    text-align: center;
+}
+.card img{
+    width: 16rem;
+    height: 12rem
+}
+.description{
+    font-size: 1.1rem;
+    color: #fefae0;
+}
+.price{
+    font-size:1.3rem;
+    color: #4ea8de;
+}
+.add-item{
+    padding: 5px 20px;
+    margin: 0 0 10px 0;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patrick Hand', cursive; 
+    background: #f8961e;
+}
+
+.add-item:hover{
+    background: rgba(248, 150, 30, 0.8)
+}
+
+
+/*Footer
+--------------------*/
+.footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #252422;
+    display: block;
+}
+.foot-item1{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(250,250,250,.5);
+}
+.foot-item2{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.1rem
+}
+
+.foot-list-items span{
+    display: block;
+    padding: 10px 0;
+}
+.foot-list-items span a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.02rem;
+    font-size: 1.2rem;
+}
+.foot-list-items span a i{
+    padding-right: 10px;
+}
+.foot-list-items span a:hover{
+    text-decoration: underline rgba(250, 250, 250,.7);
+    color: #e5e5e5;
+}
+.help-center i {
+    padding-right: 10px;
+}
+.foot-item2 div{
+    cursor: pointer
+}
+.atm-cards span i{
+    padding-left: 5px;
+}
+
+@media(max-width:280px){
+    .section{
+        width: 100%
+    }
+    .card{
+        width:80%; 
+        margin: 20px 0;
+        border: 1px solid white;
+        text-align: center;
+    }
+    .card img{
+        width: 100%;
+        height: 12rem
+    }
+}
+
+
+
+
+
+
+
+
+
+
