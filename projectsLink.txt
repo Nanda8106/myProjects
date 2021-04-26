@@ -1,9 +1,0 @@
-Movie List UI Link:- https://nanda8106.github.io/myProjects/movies-launch/index.html
-Playing cards game Link:- https://nanda8106.github.io/myProjects/playingCards/cards.html
-Tshirt cart link :- https://nanda8106.github.io/myProjects/tshirts/index.html
-Responsive eccomerce for tshirts Link :- https://nanda8106.github.io/myProjects/ecommerce/index.html
-Whatsaap desktop UI Link :- https://nanda8106.github.io/myProjects/whatsapp-desktop/index.html
-Responsive Twitter desktop homepage Ui Link :- https://nanda8106.github.io/myProjects/twitter/index.html
-Grade calculator Link :- https://nanda8106.github.io/myProjects/gradeChecker/grade.html
-Password Strength checker :- https://nanda8106.github.io/myProjects/password-Strength/password.html
-Jntua cirriculum page Link :- https://nanda8106.github.io/myProjects/jntua-ciricullum/index.html
