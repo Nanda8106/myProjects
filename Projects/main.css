@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Special Elite', cursive;
+}
+.container{
+    width: 100%;
+}
+.header{
+    margin: 20px auto;
+    width: 30%;
+    text-align: center;
+}
+.header h1{
+    font-size: 4rem; 
+    letter-spacing: 0.02rem;
+}
+.header p{
+    font-size: 17px;
+}
+.websites{
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.web-card{
+    width: 300px;
+    height: 335px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    margin: 15px 0;
+}
+.web-card:hover{
+    transform: scale(1.009);
+    z-index: 2;
+    transition: 0.4s;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px 5px 0 0; 
+}
+img:hover{
+    transform: scale(1.5);
+    transition: 0.4s;
+    z-index: 3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 
+}
+.m-4{
+    margin: 10px 0 10px 20px;
+}
+.content-header{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+.description{
+    padding: 0 0 10px 0;
+}
+.show-website{
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.show-website:hover{
+    background: rgba(0, 0, 0, 0.7)
+}
+@media(max-width:414px){
+    .header h1{
+        font-size: 25px;
+    }
+    .header p{
+        font-size: 14px;
+    }
+}
+
+
+
