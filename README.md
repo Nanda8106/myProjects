@@ -1,5 +1,5 @@
 # Websites
-[deployment](https://nanda8106.github.io/myProjects/Projects/index.html)
+[See all websites](https://nanda8106.github.io/myProjects/Projects/index.html)
 1. twitter homepage. [deployment](https://nanda8106.github.io/myProjects/twitter/index.html)
 2. loading page. [deployment](https://nanda8106.github.io/myProjects/loading/index.html)
 3. Movie-launching page. [deployment](https://nanda8106.github.io/myProjects/movies-launch/index.html)
